@@ -3,6 +3,16 @@ This program is based in the script of:
   Emilio Torres Manzanera. <http://uce.uniovi.es/tips/Latex/HtLatexConfig.html> accessed in 08/10/2013.
 DEPENDENCE:
     python-easygui
+    pdflatex
+    htlatex
+    unoconv
+    imagemagick
+    
+   Install no python dependence:
+       sudo apt-get install pdflatex htlatex unoconv imagemagick
+Usage:
+    In the terminal type:
+        pylatex2doc
     
 INSTALL:
     $ python setup.py install
