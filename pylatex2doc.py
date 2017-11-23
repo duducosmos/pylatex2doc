@@ -113,11 +113,11 @@ def cleantemp1():
 def bibAndHtml():
     pdflatex = os.system('pdflatex Index')
     if(not pdflatex):
-        print 'pdflatex is Not installed'
-        print 'ex: sudo apt-get install pdflatex'
+        print('pdflatex is Not installed')
+        print('ex: sudo apt-get install pdflatex')
     bibtex = os.system('bibtex Index')
     if(not bibtex):
-        print 'bibtex is Not installed'
+        print('bibtex is Not installed')
 
     htmlGenCom = 'htlatex'
     htmlGen = " Index \"html,word,css-in\"  \"symbol/!\" \" -cvalidate\""
@@ -125,9 +125,9 @@ def bibAndHtml():
     for i in range(0, 3):
         htlatex = os.system(htmlGenCom + htmlGen)
         if(htlatex != 0):
-            print htlatex
-            print 'htlatex is Not installed'
-            print 'ex: sudo apt-get install htlatex'
+            print(htlatex)
+            print('htlatex is Not installed')
+            print('ex: sudo apt-get install htlatex')
 
 
 def grafiAjust():
@@ -140,9 +140,9 @@ def grafiAjust():
 def docGen():
     unoconv = os.system('unoconv -f doc Index.html')
     if(unoconv != 0):
-        print unoconv
-        print 'unoconv is Not installed'
-        print 'ex: sudo apt-get install unoconv'
+        print(unoconv)
+        print('unoconv is Not installed')
+        print('ex: sudo apt-get install unoconv')
 
 
 def cleantemp2():
@@ -175,10 +175,10 @@ def convertPdfToPng(figuresDir):
         pngFile = pdfi.split('.')[0] + '.png'
         convert = os.system('convert -density 300 %s %s' % (pdfi, pngFile))
         if(convert != 0):
-            print '''ImageMagick Convert Command-Line Tool
+            print('''ImageMagick Convert Command-Line Tool
             is Not installed.
             ex: sudo apt-get install imagemagick
-            '''
+            ''')
             sys.exit()
 
 

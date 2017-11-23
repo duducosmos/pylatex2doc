@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name="pylatex2doc",
-    version="1.0",
+    version="1.0.1",
     author="Eduardo dos Santos Pereira",
     author_email="pereira.somoza@gmail.com",
     description=("Tool for Convert latex to doc and html"),
