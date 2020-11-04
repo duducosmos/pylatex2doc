@@ -7,6 +7,7 @@ DEPENDENCE:
     htlatex
     unoconv
     imagemagick
+    dvipng
     
    Install no python dependence:
        sudo apt-get install pdflatex htlatex unoconv imagemagick

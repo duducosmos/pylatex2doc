@@ -1,0 +1,3 @@
+[console_scripts]
+pylatex2doc = pylatex2doc:main
+

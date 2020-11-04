@@ -1,0 +1,9 @@
+README
+pylatex2doc.py
+setup.py
+pylatex2doc.egg-info/PKG-INFO
+pylatex2doc.egg-info/SOURCES.txt
+pylatex2doc.egg-info/dependency_links.txt
+pylatex2doc.egg-info/entry_points.txt
+pylatex2doc.egg-info/requires.txt
+pylatex2doc.egg-info/top_level.txt

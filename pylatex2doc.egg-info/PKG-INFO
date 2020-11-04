@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: pylatex2doc
+Version: 1.0.1
+Summary: Tool for Convert latex to doc and html
+Home-page: https://github.com/duducosmos/pylatex2doc
+Author: Eduardo dos Santos Pereira
+Author-email: pereira.somoza@gmail.com
+License: GNU v3
+Description: A html, doc generator from latex
+        This program is based in the script of:
+          Emilio Torres Manzanera. <http://uce.uniovi.es/tips/Latex/HtLatexConfig.html> accessed in 08/10/2013.
+        DEPENDENCE:
+            python-easygui
+            pdflatex
+            htlatex
+            unoconv
+            imagemagick
+            
+           Install no python dependence:
+               sudo apt-get install pdflatex htlatex unoconv imagemagick
+        Usage:
+            In the terminal type:
+                pylatex2doc
+            
+        INSTALL:
+            $ python setup.py install
+        
+        DISCLAIMER
+        
+            latex2doc is free software: you can redistribute it and/or modify
+            it under the terms of the GNU General Public License as published by
+            the Free Software Foundation, either version 3 of the License.
+            cosmolib is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+            GNU General Public License for more details.
+        
+            You should have received a copy of the GNU General Public License
+            along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+            
+        
+        AUTHOR
+            Eduardo S. Pereira
+            email: pereira.somoza@gmail.com
+        
+Keywords: latex,doc,html
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: GNU V3
